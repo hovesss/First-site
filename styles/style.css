@@ -1,0 +1,121 @@
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    font-size: 40px;
+    color: #4eafff;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.main-info {
+    max-width: 400px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    text-decoration: none;
+    color: #4eafff;
+    font-size: 20px;
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    font-size: 16px;    
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid rgb(175, 171, 173);
+    border-radius: 10px;
+}
+
+.form textarea {
+    font-size: 16px;    
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid rgb(175, 171, 173);
+    border-radius: 10px;
+}
+
+
+.form ::placeholder {
+    color: #4eafff;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form button {
+    font-size: 20px;
+    padding: 16px;
+    width: 425px;
+    background-color: #4eafff;
+    border: #4eafff 3px solid;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form button:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-color: #a7d6fca4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-info {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-info ul {
+    padding-left: 17px;
+}
+
+.sub-info img {
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.place {
+    width: 20px;
+}
+
+.mail {
+    width: 20px;
+}
+
+.tel {
+    width: 20px;
+}
